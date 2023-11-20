@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In - Spotify</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="Images/echo.png" alt="">
+        <a href="">Echo</a>
+    </div>
+
+    <section id="login-to-spotify">
+
+        <div class="firstline">
+
+            <div class="continue">
+                <div class="first-heading" >
+                    <h1 class="continue-box">Log in to Echo</h1>
+                </div>
+                <div><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAuxJREFUWEftmEuIz1EUxz9fjyimKEmxVMpmlDwaNUTJNIRJio3x2mg8VpomTclCNspzFhayoLAwNRqLoUiekY2UwkIh5DFh43V06j81fnN//3vvzCxmMaem/+Kee87nnvM795w7YoSJRhgPo0CxjAw6QmY2GVgEzAJmAL+At8BL4JEkizkPrWcBmZnrbwaagaXA+BKn74GLwAlJL3LAkoHMrA44DdRmOPAoXQb2SHLIqCQBmdlW4AwwNmoxrPAOaJJ0P7Y/CmRmB4H2mKHI+k9gtaSemJ2qQGbm38v5mJHI+g+gQdLtFDulQGZWD9wAxpUYugVcAJ4BTyV9NbPpwHZgV6X6vgErU1LV5yMIZGZjgOfA7ACMl/d+4FhZaZuZH6IN6JL0JCUyMaBNldMXbf3xu0fS4xwnObplEboOrAgYapN0OMdBru4AIDObAPQC/ttfPCoLJf3NdZKjHwJaADwMGGmWdC5k3MwmAq05joEeSXeKe0JAa4HOgPHFkh6UAE0BvmQCdUjyavxPQkC7geMB4zWSvpcATQU+ZwJ1SlqfAtTiTTFgfKYk7+YDxMwGA3RFUlMK0MZKpy7qNkrqHkag5JT5De23cFFaJR0pAfLZ6GqVlPmkUBxV2iUdSolQTeUDLXb218BcSd6bksXMpgEfAxvWSBpwiLKL0VPTEDByVtK2ZBrAzDwKBwp7vPt7kfhv9SrzVTNbBVwrcdwi6VQKlJn5oboCc1S3pMaQjWrd3i8tz31I3MkOSR/KwMxsL3AU8EZdlDpJ93KB5gDeLiaVOP1UqcabgP/5bT3P2wuwvMphguXe5yM2oG2ozMQpGUrR8Y+7VpKPtEFJGWF9fPUxdqjyG6gvS1VShPqUzGwn0DGEId8js07S3dipohHqB7UE8OrKeQb5dn8G7StrO0XAZKDKddD3UNwCLKvyUHwDXAJOSnoVi0r/9Syg/hsrT+n5MOAfFr25c/SwAOWcOkd30BHKcZKjOwoUi9Y/CAznJVMPoEAAAAAASUVORK5CYII=" />
+                    <a class="continue-box" href="">Continue with Google</a>
+                </div>
+                <div><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAwlJREFUWEfdl1uITlEUx3//JJfco5R7k3gRpYjwgIdJSrwgSSml3CMi9wiRy+AF5cW9aFJSwosQ8YISD6OYlNsDQm4trTqmb86cfc4+M0ay66uvs9f+799ee++11xL/WNM/xsP/AWRm44DZwGigV/JzZ78BXgN3gJOSbpfdgWgPmVl7YCGwHBgQOVEdsA84KulrzJgoIDObD+wCesaIZti411ZIOlU0vhDIzBxkdZFQZP8GSdvybINAZuZ9x4F5kZPFmtVIWhYyzgM6CCyOnSWx+wLcTf63BdoBI4A2KZ0tkjZnaWcCmdkKYG8JmOfARqBW0vvKcWY2BziRoTVXUpPvTYDMrBvgE3SOBHoGjJH0KsvezKYDFzL66oEqSd8q+7KAtgIbImHcbLKkayF7M5sBnA/0L5Z0OAhkZr7vb4EukUD1kvqlbc3Mz8zwRGc84IvManWSqvKAqoHLkTBudlHStNSZGQy4x5qABnSHS3rwu6/RlpnZEWBBCaBzkmamgGqAJSU0Nklq8GAa6B4wsoTYWUmzUkCngUbfCvQuSZoa8tALoG8Lgc4AjbxWoPdI0rAQ0GegQwmgM5L81W9oZlYW6IOkriGgT0DHHKCnkoaUAMbMDgGLcsZ8ktQpBORBbuAfBroKTMrRbHT104f6lkfdnMFPJA0t6SGPyH1yxtyQNCHkoT3Ayj/lITPzrfhYsICdktaGgCYmQS2kUfmau831yhjiH8zMH1nX8eYXZFQB0DhJN0NA/nT4w9o7cluy4lCZW+ZhZpCkn5lAyQrXAdv/EpCntfsr52pp+tESD70D+kvy2NfQQgmaP5i1EV5qLpAB1ZKupOfIS2EPAEsLoJoLtFXSpiztoiT/GOAlUKg1B2iHJD+nmS2mDPLUYD1klt1lgH4ktZk/JcFWCJTcvLGAF3npijUW6LFnAJIeFp3LKKAEyoOcJ15rgB6JcBHQyySEeCn9vQjG+6OBfouZmacKU5Kc+Z2k3ZUTmdkqoDtwH/DkK6qmDwbGmFW0pk1pD7UmTLO2rLWBfgEb2CQ0IGQg+wAAAABJRU5ErkJggg==" />
+                    <a class="continue-box" href="">Continue
+                        with Facebook</a>
+                </div>
+                <div><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAnBJREFUWEftl0uoT1EUxn+fx0CSR+SRQjeJwoDEzKOQMmHAQKEUI+WRcjGRuhkoMhApZq6kSGHAQIpEeZth4hUDbgae+bT0v3W61z377P89dW+xp/s7a/3OWmvvtbboZ0v9jId/A8j2NGAnsFTSpJws1B4h2zuANmAw8EJSS58B2T4A7CkAHJa0rU+AbM8B7hWcfwVaJL3pK6DzwKqC882STuTAhLa2GrL9CRgOfAb2STqSC5MNZHsgMBkYBTyU9L3Tqe3LwHXgpKQO26GZAXwAnkv6WQWwUoRsjwF2A5uAYQ3D34CAOAtcAIYC64HlwCxgXJd6uhg2JL0sA0sC2Q7jV4HxVf4woekAVkq62ZOuFMj2ROBJozZq4Plj4jUwVdKXvxlMAV0DltRFAtwHVkh6lx0h27OBBzXCfIzakvSqqRqyfQzYUiNQm6TWlL0eU2b7LjA3ZSBjf76kOyl9GVDkeWzKQMb+BElvU/oyoF913uRAr4Hihh2d+qOM/YWSbqT0ZRF62rj6Uzaq7h+VtDUlLgM6A6xNGcjYj142T1LcRT2uMqANwKkMh1Wk74FFkp41czHGCYtTkex3VUgKmhhPYlaKDHRbqdbRDqzJdFhF/lhSNO1soAXArSoeMjUbJZ3OBooPbMfosSzTYZk8uv0UST+aBZoJPKoRKLr9leyiLn5g+yCwqwao45JKG3alE2R7EHCpMZ42y3UbWCwpnkf591DXL2wPALYD+4Ehhf2Ymc41ZqfpwGogDkPnip54CNhbfBT0KmVd0jcCWAeMjKhJ6jbENd72ARYPgXZJUciVVqWUVbJUk+g/UCqQ/S5CvwE877glmr70tQAAAABJRU5ErkJggg==" />
+                    <a class="continue-box" href="">Continue
+                        with Apple</a>
+                </div>
+                <div>
+                    <a class="continue-box" href="">Continue with phone number</a>
+                </div>
+                <hr>
+            </div>
+        </div>
+        
+        <div class="email">
+            <label class="uname" for="uname"><b>Email or username</b></label>
+            <input class="username" type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label class="psw" for="psw"><b>Password</b></label>
+            <input class="password" type="password" placeholder="Enter Password" name="psw" required>
+              
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+
+              <a href="index1.html"><button type="submit">Login</button></a>
+            
+            <span class="forgot"><a href="#">Forgot your password?</a></span>
+          </div>
+    </section>
+    
+<hr class="hrr">
+
+<div class="dont-acc">
+    <p>Don't have an account? <a href="signup.html">Sign up for Spotify</a></p>
+</div>
+
+<div class="last-line">
+    <p>This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy</a> and <a href="">Terms of Service</a> apply.</p>
+</div>
+</body>
+
+</html>

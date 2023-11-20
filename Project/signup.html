@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Spotify</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="header">
+        <img src="Images/echo.png" alt="">
+        <a href="">Echo</a>
+    </div>
+
+    <div class="email">
+        <div class="first-heading" >
+            <h1 class="continue-box">Sign up to start listening</h1>
+        </div>
+        <label class="uname" for="uname"><b>Email or phone</b></label>
+        <input class="username" type="text" placeholder="Enter email or phone" name="uname" required>
+  
+        <label class="psw" for="psw"><b>Create Password</b></label>
+        <input class="password" type="password" placeholder="Create Password" name="psw" required>
+
+        <label class="psw" for="psw"><b>Confirm Password</b></label>
+        <input class="password" type="password" placeholder="Confirm Password" name="psw" required>
+          
+        <button type="submit">Signup</button>
+      </div>
+
+      <hr>
+
+      <div class="firstline">
+
+        <div class="continue">
+            <div><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAuxJREFUWEftmEuIz1EUxz9fjyimKEmxVMpmlDwaNUTJNIRJio3x2mg8VpomTclCNspzFhayoLAwNRqLoUiekY2UwkIh5DFh43V06j81fnN//3vvzCxmMaem/+Kee87nnvM795w7YoSJRhgPo0CxjAw6QmY2GVgEzAJmAL+At8BL4JEkizkPrWcBmZnrbwaagaXA+BKn74GLwAlJL3LAkoHMrA44DdRmOPAoXQb2SHLIqCQBmdlW4AwwNmoxrPAOaJJ0P7Y/CmRmB4H2mKHI+k9gtaSemJ2qQGbm38v5mJHI+g+gQdLtFDulQGZWD9wAxpUYugVcAJ4BTyV9NbPpwHZgV6X6vgErU1LV5yMIZGZjgOfA7ACMl/d+4FhZaZuZH6IN6JL0JCUyMaBNldMXbf3xu0fS4xwnObplEboOrAgYapN0OMdBru4AIDObAPQC/ttfPCoLJf3NdZKjHwJaADwMGGmWdC5k3MwmAq05joEeSXeKe0JAa4HOgPHFkh6UAE0BvmQCdUjyavxPQkC7geMB4zWSvpcATQU+ZwJ1SlqfAtTiTTFgfKYk7+YDxMwGA3RFUlMK0MZKpy7qNkrqHkag5JT5De23cFFaJR0pAfLZ6GqVlPmkUBxV2iUdSolQTeUDLXb218BcSd6bksXMpgEfAxvWSBpwiLKL0VPTEDByVtK2ZBrAzDwKBwp7vPt7kfhv9SrzVTNbBVwrcdwi6VQKlJn5oboCc1S3pMaQjWrd3i8tz31I3MkOSR/KwMxsL3AU8EZdlDpJ93KB5gDeLiaVOP1UqcabgP/5bT3P2wuwvMphguXe5yM2oG2ozMQpGUrR8Y+7VpKPtEFJGWF9fPUxdqjyG6gvS1VShPqUzGwn0DGEId8js07S3dipohHqB7UE8OrKeQb5dn8G7StrO0XAZKDKddD3UNwCLKvyUHwDXAJOSnoVi0r/9Syg/hsrT+n5MOAfFr25c/SwAOWcOkd30BHKcZKjOwoUi9Y/CAznJVMPoEAAAAAASUVORK5CYII=" />
+                <a class="continue-box" href="">Continue
+                    with Google</a>
+            </div>
+            <div><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAwlJREFUWEfdl1uITlEUx3//JJfco5R7k3gRpYjwgIdJSrwgSSml3CMi9wiRy+AF5cW9aFJSwosQ8YISD6OYlNsDQm4trTqmb86cfc4+M0ay66uvs9f+799ee++11xL/WNM/xsP/AWRm44DZwGigV/JzZ78BXgN3gJOSbpfdgWgPmVl7YCGwHBgQOVEdsA84KulrzJgoIDObD+wCesaIZti411ZIOlU0vhDIzBxkdZFQZP8GSdvybINAZuZ9x4F5kZPFmtVIWhYyzgM6CCyOnSWx+wLcTf63BdoBI4A2KZ0tkjZnaWcCmdkKYG8JmOfARqBW0vvKcWY2BziRoTVXUpPvTYDMrBvgE3SOBHoGjJH0KsvezKYDFzL66oEqSd8q+7KAtgIbImHcbLKkayF7M5sBnA/0L5Z0OAhkZr7vb4EukUD1kvqlbc3Mz8zwRGc84IvManWSqvKAqoHLkTBudlHStNSZGQy4x5qABnSHS3rwu6/RlpnZEWBBCaBzkmamgGqAJSU0Nklq8GAa6B4wsoTYWUmzUkCngUbfCvQuSZoa8tALoG8Lgc4AjbxWoPdI0rAQ0GegQwmgM5L81W9oZlYW6IOkriGgT0DHHKCnkoaUAMbMDgGLcsZ8ktQpBORBbuAfBroKTMrRbHT104f6lkfdnMFPJA0t6SGPyH1yxtyQNCHkoT3Ayj/lITPzrfhYsICdktaGgCYmQS2kUfmau831yhjiH8zMH1nX8eYXZFQB0DhJN0NA/nT4w9o7cluy4lCZW+ZhZpCkn5lAyQrXAdv/EpCntfsr52pp+tESD70D+kvy2NfQQgmaP5i1EV5qLpAB1ZKupOfIS2EPAEsLoJoLtFXSpiztoiT/GOAlUKg1B2iHJD+nmS2mDPLUYD1klt1lgH4ktZk/JcFWCJTcvLGAF3npijUW6LFnAJIeFp3LKKAEyoOcJ15rgB6JcBHQyySEeCn9vQjG+6OBfouZmacKU5Kc+Z2k3ZUTmdkqoDtwH/DkK6qmDwbGmFW0pk1pD7UmTLO2rLWBfgEb2CQ0IGQg+wAAAABJRU5ErkJggg==" />
+                <a class="continue-box" href="">Continue
+                    with Facebook</a>
+            </div>
+            <hr class="hrr">
+        </div>
+
+        <div class="alr-acc">
+            <p>Already have an account? <a href="login.html">Log in here</a></p>
+        </div>
+        <div class="last-line">
+            <p>This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy</a> and <a href="">Terms of Service</a> apply.</p>
+        </div>
+</body>
+</html>
